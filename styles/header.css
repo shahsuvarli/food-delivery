@@ -1,0 +1,183 @@
+.header-section {
+  background-color: #f3f4f6;
+  padding: 47px 0px;
+  width: 100%;
+}
+
+.logo-container {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  width: 150px;
+  height: 100px;
+}
+
+.vector {
+  display: none;
+  margin-right: 20px;
+  height: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+  }
+  .container > img {
+    margin-right: 20px;
+    height: 100%;
+  }
+  .language-section {
+    width: 50px !important;
+  }
+  .vector {
+    display: block;
+  }
+  .header-section {
+    padding: 10px 0px;
+  }
+  .logo-container {
+    display: flex;
+  }
+}
+
+.Home_container__bCOhY {
+  padding: 0 !important;
+}
+
+.menu-section {
+  margin-left: 3%;
+}
+
+.menu-section a {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #828282;
+  text-decoration: none;
+  transition: 0.3s all ease-in-out;
+}
+
+.menu-section a:hover,
+.menu-section a:focus {
+  color: #d63626;
+  font-weight: 700;
+}
+
+.language-section {
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  min-width: 170px;
+  max-width: 250px;
+  /* background-color: red; */
+}
+
+.language-section .dropdown-toggle {
+  width: 41px;
+  height: 41px;
+  padding: 0;
+  border: transparent;
+}
+
+.language-section .dropdown-toggle:hover,
+.language-section .dropdown-toggle:focus,
+.language-section .dropdown-toggle:active {
+  border: transparent !important;
+}
+
+.language-section .dropdown-toggle::after {
+  border: none !important;
+}
+
+.language-section ul {
+  background-color: #fff;
+  border: none;
+  max-width: 61px !important;
+  min-width: 61px !important;
+  padding: 0 10px;
+}
+
+.language-section li div {
+  background-color: #fff;
+  border: none;
+  max-width: 61px !important;
+  padding: 5px 0;
+}
+
+.language-section {
+  display: flex;
+}
+
+.language-section li div:hover {
+  background-color: #fff;
+}
+
+.language-section .sign-button a {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #d63626;
+  color: #fff;
+  border-radius: 30px;
+  padding: 7px 23px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.user-name {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.user-name:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  #navbar {
+    display: none;
+  }
+}
+
+.avatar {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  margin-left: 15px;
+  /* background-color: green; */
+}
+
+.icons {
+  background-color: green;
+  min-width: 50px;
+}
+
+.MuiBox-root > .container > a {
+  width: 127px;
+  height: 41px;
+  background: #d63626;
+  border-radius: 30px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 18px;
+}
