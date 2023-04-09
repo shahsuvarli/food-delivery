@@ -10,21 +10,21 @@ The application is built using Next.js, which allows for server-side rendering, 
 Additionally, Material UI (MUI) is used for styling and React-i18next for internationalization, making the application accessible to users all around the world.
 
 Features
---------
+-------------------
 
--   Browse menu with various food options
--   Add food items to cart and customize orders
--   Place orders with multiple payment options
--   Track order status and delivery time
--   View and download invoices
+-   Browse menu with various food options 📜👀
+-   Add food items to cart and customize orders 🛒🍴👨‍🍳
+-   Place orders with multiple payment options 💳💰
+-   Track order status and delivery time 🚚🕰️
+-   View and download invoices 🧾💻
 
 Technologies Used
------------------
+----------------------
 
--   ReactJS with Next.js
--   Redux-Toolkit for state management
--   MUI for styling and UI components
--   React-i18next for localization
+-   ReactJS with Next.js ⚛️🚀
+-   Redux-Toolkit for state management 🧰🚀
+-   MUI for styling and UI components 🎨💅
+-   React-i18next for localization 🌐🌍
 
 Installation
 ------------
